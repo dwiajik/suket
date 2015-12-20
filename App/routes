@@ -1,0 +1,10 @@
+GET / HomeController@index
+GET /dashboard HomeController@dashboard
+
+GET /login AuthController@getLogin
+POST /login AuthController@postLogin
+GET /register AuthController@getRegister
+POST /register AuthController@postRegister
+GET /logout AuthController@getLogout
+
+GET /blabla ControllerDirectory\ControllerName@method
