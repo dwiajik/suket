@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Suket - Login</title>
+    <title>Suket - Dashboard</title>
     <?php include __DIR__ . '/../include/css.php'; ?>
 </head>
 <body>
@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="col-lg-12">
-        <div class="panel panel-default" method="post" action="/login">
+        <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">Welcome, <?php echo $user->fullname; ?>!</h3>
             </div>
